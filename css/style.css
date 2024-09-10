@@ -1,5 +1,73 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Golos Text", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+}
+header {
+  position: relative;
+  color: white;
+  font-family: "Golos Text", sans-serif;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: url("../img/background.png") no-repeat;
+  background-size: cover;
+  aspect-ratio: 7/4;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  padding: 42px 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.banner {
+  margin: 159px 0 46px 138px;
+  width: 467px;
+}
+
+.button-header {
+  margin-left: 138px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #25252c;
+  border-radius: 50px;
+  width: 255px;
+  display: flex;
+  align-items: center;
+  padding: 24px 48px;
+}
+
+.button-header:before {
+  margin-top: 3px;
+  margin-right: 10px;
+  content: url("../img/arrow-right.svg");
+}
+
+.clock-text {
+  position: absolute;
+  bottom: 22px;
+  right: 138px;
+  background: url("../img/Group\ 2.svg");
+  width: 227px;
+  height: 227px;
 }
