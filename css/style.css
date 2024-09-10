@@ -71,3 +71,92 @@ nav ul li {
   width: 227px;
   height: 227px;
 }
+.about {
+    font-family: "Golos Text", sans-serif;
+    background: #1E262F;
+    color: white;
+    height: 800px;
+    display: flex;
+}
+
+.about-ecodom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 37px 0 83px;
+
+}
+
+.about-ecodom p {
+    font-size: 14px;
+    /*font-weight: 500;*/
+    color: rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+    writing-mode: vertical-lr
+
+    /*width: 70px;*/
+}
+
+.about-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    padding: 0 122px 0 67px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-company {
+    position: relative;
+    width: 778px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-title {
+    position: absolute;
+    left: 36px;
+    top: 231px;
+    font-family: "Oranienbaum", serif;
+    font-size: 56px;
+    width: 235px;
+}
+
+.about-text {
+    font-family: Inter, serif;
+    font-weight: 100;
+    position: absolute;
+    top: 440px;
+    left: 260px;
+    font-size: 16px;
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.video-about {
+    position: absolute;
+    top: 174px;
+    left: 339px;
+    background: url("../img/Group 8777.png");
+    width: 376px;
+    height: 212px;
+}
+.estimate {
+    height: 745px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estimate-text {
+    width: 320px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.estimate-title {
+    width: 160px;
+    margin-bottom: 12px;
+}
